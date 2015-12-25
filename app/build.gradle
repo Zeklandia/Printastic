@@ -2,12 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
     signingConfigs {
-        PlayStoreKey {
-            keyAlias 'production'
-            keyPassword 'Login.usePassword(strong,128);'
-            storeFile file('C:/Users/Asher/Storage/Dropbox/dev/android/.keys/Keystore.keystore')
-            storePassword 'Login.usePassword(strong,128);'
-        }
     }
     compileSdkVersion 23
     buildToolsVersion '23.0.2'
