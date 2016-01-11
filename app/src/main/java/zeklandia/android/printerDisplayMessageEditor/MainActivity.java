@@ -1,4 +1,4 @@
-package printerdisplaymessageeditor.android.zeklandia.printastic;
+package zeklandia.android.printerDisplayMessageEditor;
 
 import android.graphics.Color;
 import android.os.AsyncTask;
